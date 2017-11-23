@@ -1,0 +1,12 @@
+Notes de sqlite3
+
+Link for basic stuff: https://www.imaginanet.com/blog/primeros-pasos-con-sqlite3-comandos-basicos.html
+How to exit from sqlite3: .exit
+How to create a persistent database: sqlite3 basededatos.db
+How to dump a database to disk:
+sqlite> .output c:/sqlite/chinook.sql
+sqlite> .dump
+sqlite> .exit
+
+How to create a database from a dump or sql script:
+sqlite3 auction.db < create.sql
